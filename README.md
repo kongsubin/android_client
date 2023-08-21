@@ -27,3 +27,19 @@
 부록 B 개발자가 알아야 할 날짜와 시간  
 부록 C 계속되는 공부를 위한 조언  
 
+
+# Server 실행시키기
+1. dev.sqlite 파일 삭제
+~~~bash
+rm -rf dev.sqlite
+~~~
+
+2. 가상환경 진입
+~~~bash
+source venv/bin/activate
+~~~
+
+3. 서버 실행
+~~~bash
+flask run
+~~~
